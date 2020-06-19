@@ -1,0 +1,63 @@
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+main > .container {
+  padding: 60px 15px 0;
+}
+
+.footer {
+  background-color: #f5f5f5;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+.font-letra *{
+  font-size: 0.7em;
+}
+
+.position-relative-el-pais{
+  position: relative;
+
+}
+
+.justify-content-el-pais{
+  justify-content: center !important;
+
+}
+.justify-header-el-pais{
+  justify-content: space-between;
+}
+
+.color-header-el-pais{
+  background-color: #ffffff !important;
+}
+
+.border-none-el-pais{
+  border-top-width: 0;
+  border-left-width: 0;
+  border-bottom: 0;
+  border-radius: 0;
+}
+
+@media(max-width: 750px){
+  .nvp{display: none;
+
+  }
+  .overflow-el-pais{
+    overflow-x: auto;
+  }
+}
+
+.discontinua{
+  border-style: dotted;
+  border-color: black;
+}
+
